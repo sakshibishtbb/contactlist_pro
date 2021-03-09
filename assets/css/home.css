@@ -1,0 +1,57 @@
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#contacts-list-container ul {
+    padding: 0;
+}
+
+.contact {
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    display: flex;
+    list-style: decimal;
+}
+
+.contact .details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact .delete-button {
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact .delete-button a {
+    color: white;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.add {
+    border-top: None;
+    border-left: None;
+    border-right: None;
+    border-color: black;
+}
+
+.but {
+    background-color: grey;
+    border: None;
+    border-radius: 35px;
+}
